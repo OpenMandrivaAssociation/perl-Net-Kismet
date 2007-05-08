@@ -1,7 +1,7 @@
 %define	module	Net-Kismet
 %define name	perl-%{module}
 %define version	0.04
-%define release	4mdk
+%define release	%mkrel 5
 
 Summary:	Net::Kismet perl module
 Name:		%{name}
@@ -25,6 +25,8 @@ A perl module to make writing Kismet clients in perl much simpler.
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
+
+%check
 %make test
 
 %install
