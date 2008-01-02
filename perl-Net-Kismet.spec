@@ -11,6 +11,7 @@ License:	GPL
 Group:		Development/Perl
 Requires:	perl
 BuildRequires:	perl-devel
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://www.kismetwireless.net/
 Source:		%{module}-%{version}.tar.bz2
 BuildArch:	noarch
