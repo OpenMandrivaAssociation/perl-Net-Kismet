@@ -1,7 +1,7 @@
 %define	module	Net-Kismet
 %define name	perl-%{module}
 %define version	0.04
-%define release	9
+%define release	10
 
 Summary:	Net::Kismet perl module
 Name:		%{name}
