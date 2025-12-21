@@ -10,6 +10,7 @@ Release:	%{release}
 License:	GPL
 Group:		Development/Perl
 Requires:	perl
+BuildRequires:	make
 BuildRequires:	perl-devel
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		https://www.kismetwireless.net/
